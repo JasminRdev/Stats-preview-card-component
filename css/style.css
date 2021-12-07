@@ -1,0 +1,75 @@
+body{
+  font-family: 'Fira Sans', sans-serif;
+  background: black;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+h2{
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0;
+}
+.container-main{
+
+padding-top: 7%;
+max-width: 1000px;
+margin:auto;
+  display: grid;
+  grid-template-columns: repeat(2, 500px);
+}
+
+
+.contains-left{
+  display: grid;
+  padding-left: 3%;
+  background: #0E1A59;
+
+}
+
+.top-container{
+  display: grid;
+  color: white;
+  padding: 7% 7% 0 7%;
+}
+
+.font-purple{
+  color: #A446A6;
+}
+
+p{
+  color: #CDCBD470;
+  margin-top: 0;
+}
+
+.middle-container{
+
+  padding-left: 7%;
+  display: grid;
+  margin-right: 15%;
+}
+
+.bottom-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 7%;
+  padding-bottom: 7%;
+
+}
+
+.item{
+padding: 7%;
+display: grid;
+
+}
+
+
+
+
+.contains-right{
+background-image: url(/images/image-header-desktop.jpg) ;
+background-size: contain;
+background-blend-mode: multiply;
+background-color: rgba(170, 0, 255, 1);
+}
